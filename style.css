@@ -1,0 +1,41 @@
+/* Estilo geral do corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Caixa principal do currículo */
+.curriculo {
+  background-color: white;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centraliza o conteúdo */
+}
+
+/* Imagem do perfil */
+.foto-perfil {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; /* Deixa a imagem redonda */
+  object-fit: cover; /* Garante que a imagem preencha o espaço */
+  margin-bottom: 15px;
+}
+
+h1,
+h2 {
+  color: #333;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.secao {
+  margin-bottom: 20px;
+  text-align: left; /* Alinha as seções à esquerda */
+}

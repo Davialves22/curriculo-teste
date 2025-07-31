@@ -1,90 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Currículo com Foto</title>
-    <style>
-        /* Estilo geral do corpo da página */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 20px;
-            padding: 20px;
-        }
+    <head>
+        <meta charset="UTF-8">
+        <title>Currículo com Foto</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Início do currículo -->
+        <div class="curriculo">
+            <!-- Foto do candidato -->
+            <img class="foto-perfil" src="https://via.placeholder.com/120"
+                alt="Foto de João da Silva">
 
-        /* Caixa principal do currículo */
-        .curriculo {
-            background-color: white;
-            max-width: 600px;
-            margin: auto;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center; /* Centraliza o conteúdo */
-        }
+            <!-- Nome e contato -->
+            <h1>João da Silva</h1>
+            <p><strong>Email:</strong> joao@email.com</p>
+            <p><strong>Telefone:</strong> (11) 99999-9999</p>
 
-        /* Imagem do perfil */
-        .foto-perfil {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%; /* Deixa a imagem redonda */
-            object-fit: cover; /* Garante que a imagem preencha o espaço */
-            margin-bottom: 15px;
-        }
+            <!-- Seção de Objetivo -->
+            <div class="secao">
+                <h2>Objetivo</h2>
+                <p>Busco uma oportunidade para aplicar meus conhecimentos em
+                    desenvolvimento web.</p>
+            </div>
 
-        h1, h2 {
-            color: #333;
-        }
+            <!-- Seção de Formação -->
+            <div class="secao">
+                <h2>Formação Acadêmica</h2>
+                <p>Técnico em Informática - Escola Técnica XYZ (2023 - 2025)</p>
+            </div>
 
-        p {
-            line-height: 1.5;
-        }
+            <!-- Seção de Experiência -->
+            <div class="secao">
+                <h2>Experiência</h2>
+                <p>Estagiário de TI - Empresa ABC (Jan 2024 - Atual)</p>
+                <p>Atendimento ao usuário e suporte básico em redes e
+                    computadores.</p>
+            </div>
 
-        .secao {
-            margin-bottom: 20px;
-            text-align: left; /* Alinha as seções à esquerda */
-        }
-    </style>
-</head>
-<body>
-    <!-- Início do currículo -->
-    <div class="curriculo">
-        <!-- Foto do candidato -->
-        <img class="foto-perfil" src="https://via.placeholder.com/120" alt="Foto de João da Silva">
-        
-        <!-- Nome e contato -->
-        <h1>João da Silva</h1>
-        <p><strong>Email:</strong> joao@email.com</p>
-        <p><strong>Telefone:</strong> (11) 99999-9999</p>
-
-        <!-- Seção de Objetivo -->
-        <div class="secao">
-            <h2>Objetivo</h2>
-            <p>Busco uma oportunidade para aplicar meus conhecimentos em desenvolvimento web.</p>
+            <!-- Seção de Habilidades -->
+            <div class="secao">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>HTML e CSS básicos</li>
+                    <li>Lógica de programação</li>
+                    <li>Pacote Office</li>
+                </ul>
+            </div>
         </div>
-
-        <!-- Seção de Formação -->
-        <div class="secao">
-            <h2>Formação Acadêmica</h2>
-            <p>Técnico em Informática - Escola Técnica XYZ (2023 - 2025)</p>
-        </div>
-
-        <!-- Seção de Experiência -->
-        <div class="secao">
-            <h2>Experiência</h2>
-            <p>Estagiário de TI - Empresa ABC (Jan 2024 - Atual)</p>
-            <p>Atendimento ao usuário e suporte básico em redes e computadores.</p>
-        </div>
-
-        <!-- Seção de Habilidades -->
-        <div class="secao">
-            <h2>Habilidades</h2>
-            <ul>
-                <li>HTML e CSS básicos</li>
-                <li>Lógica de programação</li>
-                <li>Pacote Office</li>
-            </ul>
-        </div>
-    </div>
-</body>
+    </body>
 </html>
